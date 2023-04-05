@@ -1,0 +1,24 @@
+.bg-image {
+    height:100%;
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav {
+    margin-block:1%;
+}
+.contenedor{
+    margin-block:1%;   
+}
+h1{
+    font-family: 'Caveat', cursive;
+}
+p{
+    font-family: 'Caveat', cursive;
+    font-family: 'Raleway', sans-serif;
+    color: #443311;
+}
+body {
+overflow-x: hidden;
+}
