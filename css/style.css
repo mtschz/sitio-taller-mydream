@@ -7,6 +7,28 @@ p, h1, .h1, h2, .h2, h3, .h3, h5, .h5, h6, .h6, .navbar-text {
   color: #443311;
 }
 
+.logo-contacto {
+  height: 10vh;
+}
+
+h1, .h1 {
+  font-family: "Caveat", cursive;
+}
+
+.img-home {
+  height: 50vh;
+}
+
+.img-30 {
+  height: 30vh;
+  width: auto;
+}
+
+iframe {
+  height: 30vh;
+  width: 25em;
+}
+
 .scale {
   transition: transform 1s;
 }
