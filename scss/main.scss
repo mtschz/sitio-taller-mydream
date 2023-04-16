@@ -1,0 +1,36 @@
+$primary:       #a7e4ec;
+$secondary:     #fccac7;
+$white:    whitesmoke;
+$dark:          #443311;
+$border-style:                solid;
+$border-color:                $dark;
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "white":      $white,
+  "dark":       $dark
+);
+.btn-secondary {
+    background-color: $secondary;
+}
+p, h1, h2, h3, h5, h6, .navbar-text {
+    color:$dark;
+}
+.scale {
+    transition: transform 1s;
+}
+.scale:hover {
+    transform: scale(1.1)
+}
+.logo-footer {
+    height:7vh;
+    transition: transform 1s; 
+}
+.logo-footer:hover {
+    transform: translateY(-0.7em)
+}
+.bg-image {
+    background-image: url('https://i.postimg.cc/PrGGkyKK/patron-fondo.jpg');
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
