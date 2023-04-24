@@ -13,6 +13,11 @@ $theme-colors: (
 ///FONT
 $font-h1: 'Caveat', cursive;
 $font-text: 'Raleway', sans-serif;
+
 ///BORDER
 $border-style:                solid;
 $border-color:                $dark;
+
+/// ANIMACIONES
+$speed: 1s;
+$translateY: -0.7em;

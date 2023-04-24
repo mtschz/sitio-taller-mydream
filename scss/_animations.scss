@@ -1,7 +1,23 @@
-.scale {
-    transition: transform 1s;
-
-    &:hover {
-    transform: scale(1.1)
+@mixin scale {
+    transition: transform $speed;
+    &:hover, &:focus {
+       transform: scale(1.1);
+    }
+   }
+@mixin translateY {
+    transition: transform $speed;
+    &:hover, &:focus {
+            transform: translateY($translateY)
+    }
 }
+@mixin link-hover {
+    font-weight: lighter;
+    &:hover, &:focus {
+        @include scale ();
+        opacity: 1;
+        font-weight: bold;
+    }
+}
+.scale {
+    @include scale;
 }

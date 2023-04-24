@@ -11,14 +11,6 @@ h1, .h1 {
   background-image: url("https://i.postimg.cc/PrGGkyKK/patron-fondo.jpg");
 }
 
-.logo-footer {
-  height: 7vh;
-  transition: transform 1s;
-}
-.logo-footer:hover {
-  transform: translateY(-0.7em);
-}
-
 .btn-secondary {
   background-color: #fccac7;
 }
@@ -26,8 +18,28 @@ h1, .h1 {
 .scale {
   transition: transform 1s;
 }
-.scale:hover {
+.scale:hover, .scale:focus {
   transform: scale(1.1);
+}
+
+.nav-link {
+  font-weight: lighter;
+}
+.nav-link:hover, .nav-link:focus {
+  transition: transform 1s;
+  opacity: 1;
+  font-weight: bold;
+}
+.nav-link:hover:hover, .nav-link:hover:focus, .nav-link:focus:hover, .nav-link:focus:focus {
+  transform: scale(1.1);
+}
+
+.logo-footer {
+  height: 7vh;
+  transition: transform 1s;
+}
+.logo-footer:hover, .logo-footer:focus {
+  transform: translateY(-0.7em);
 }
 
 .logo-contacto {
