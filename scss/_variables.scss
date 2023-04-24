@@ -1,0 +1,18 @@
+/// COLORES
+$primary:       #a7e4ec;
+$secondary:     #fccac7;
+$white:    whitesmoke;
+$dark:          #443311;
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "white":      $white,
+  "dark":       $dark
+);
+
+///FONT
+$font-h1: 'Caveat', cursive;
+$font-text: 'Raleway', sans-serif;
+///BORDER
+$border-style:                solid;
+$border-color:                $dark;

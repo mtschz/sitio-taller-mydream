@@ -1,0 +1,7 @@
+.logo-footer {
+    height:7vh;
+    transition: transform 1s; 
+    &:hover {
+    transform: translateY(-0.7em)
+    }
+}
